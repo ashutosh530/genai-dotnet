@@ -1,0 +1,14 @@
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/bin/Debug/net10.0/Day03-Inheritance
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/bin/Debug/net10.0/Day03-Inheritance.deps.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/bin/Debug/net10.0/Day03-Inheritance.runtimeconfig.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/bin/Debug/net10.0/Day03-Inheritance.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/bin/Debug/net10.0/Day03-Inheritance.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/Day03-Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/Day03-Inheritance.AssemblyInfoInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/Day03-Inheritance.AssemblyInfo.cs
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/Day03-Inheritance.csproj.CoreCompileInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/Day03-Inheritance.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/refint/Day03-Inheritance.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/Day03-Inheritance.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/Day03-Inheritance.genruntimeconfig.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day03-Inheritance/obj/Debug/net10.0/ref/Day03-Inheritance.dll
