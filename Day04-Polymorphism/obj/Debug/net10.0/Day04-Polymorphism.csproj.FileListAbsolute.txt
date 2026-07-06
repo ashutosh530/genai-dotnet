@@ -12,3 +12,4 @@
 /Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day04-Polymorphism/obj/Debug/net10.0/Day04-Polymorphism.pdb
 /Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day04-Polymorphism/obj/Debug/net10.0/Day04-Polymorphism.genruntimeconfig.cache
 /Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day04-Polymorphism/obj/Debug/net10.0/ref/Day04-Polymorphism.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Day04-Polymorphism/obj/Debug/net10.0/Day04-Polymorphism.sourcelink.json
