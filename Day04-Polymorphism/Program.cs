@@ -4,6 +4,7 @@ using StudentApp;
 using EmployeeManagement;
 using AnimalManagement;
 using PaymentApp;
+using NotificationApp;
 
 class Program
 {
@@ -66,6 +67,20 @@ class Program
         netBankingPayment.ShowPaymentDetails();
         netBankingPayment.ProcessPayment();
         netBankingPayment.ValidatePayment();
+
+        // Using Interface for Notification Management
+        Console.WriteLine("\n-----Interface Notification Management System-----\n");
+        INotificationSender emailSender = new EmailNotificationSender();
+        emailSender.SendNotification("Sending Email Notification...");
+
+        INotificationSender smsSender = new SMSNotificationSender();
+        smsSender.SendNotification("Sending SMS Notification...");
+
+        INotificationSender pushSender = new PushNotificationSender();
+        pushSender.SendNotification("Sending Push Notification...");
+
+
+    
     }
     
 }
