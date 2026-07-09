@@ -33,7 +33,7 @@ namespace StudentManagement
             students.Add(student);
         }
 
-        public void RemoveStudent(int id)
+        public void  RemoveStudent(int id)
         {
             students.RemoveAll(s => s.Id == id);
         }
@@ -50,7 +50,7 @@ namespace StudentManagement
 
         public void CountStudents()
         {
-            Console.WriteLine($"Total number of students: {students.Count}");
+            Console.WriteLine($"Total number of students: {students.Count}");   
         }
     }
 }
