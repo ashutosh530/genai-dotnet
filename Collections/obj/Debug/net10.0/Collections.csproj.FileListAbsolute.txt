@@ -1,0 +1,15 @@
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/bin/Debug/net10.0/Collections
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/bin/Debug/net10.0/Collections.deps.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/bin/Debug/net10.0/Collections.runtimeconfig.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/bin/Debug/net10.0/Collections.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/bin/Debug/net10.0/Collections.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/Collections.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/Collections.AssemblyInfoInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/Collections.AssemblyInfo.cs
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/Collections.csproj.CoreCompileInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/Collections.sourcelink.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/Collections.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/refint/Collections.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/Collections.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/Collections.genruntimeconfig.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Collections/obj/Debug/net10.0/ref/Collections.dll
