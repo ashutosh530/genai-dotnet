@@ -1,5 +1,7 @@
 ﻿using StudentManagement;
 using EmployeeManagement;
+using BrowserHistoryManage;
+using PageBH;
 
 class Program
 {
@@ -63,6 +65,48 @@ class Program
 
         // Updating the first employee in the queue
         employeeManager.UpadateEmployee(1, "John Updated", "HR Updated");
+
+        // Displaying the updated first employee in the queue
+        var updatedEmployee = employeeManager.GetEmployee();
+        if (updatedEmployee != null)
+        {
+            Console.WriteLine($"\nUpdated First Employee in Queue: ID: {updatedEmployee.Id}, Name: {updatedEmployee.Name}, Department: {updatedEmployee.Department}");
+        }
+        else
+        {
+            Console.WriteLine("\nNo employees available.");
+        }
+
+        // Removing the first employee from the queue
+        employeeManager.RemoveEmployee();
+        // Displaying the first employee in the queue after removal
+        var nextEmployee = employeeManager.GetEmployee();
+        if (nextEmployee != null)
+        {
+            Console.WriteLine($"\nNext Employee in Queue after removal: ID: {nextEmployee.Id}, Name: {nextEmployee.Name}, Department: {nextEmployee.Department}");
+        }
+        else
+        {
+            Console.WriteLine("\nNo employees available.");
+        }
+        
+         // Creating an instance of Browser History Project using Stack
+
+         BrowserHistory browserHistory = new BrowserHistory();
+
+         browserHistory.VisitPage(new Page(1,"Youtube","https://youtube.com"));
+         browserHistory.VisitPage(new Page (2,"Google","https://google.com"));
+         browserHistory.VisitPage(new Page (3, "ChatGpt", "https://chatgpt.com"));
+
+         browserHistory.CountPage();
+        Page current =  browserHistory.GetCurrentPage();
+        if(current != null)
+        {
+            Console.WriteLine($"{current.Title}");
+        }
+         browserHistory.GoBack();
+         
+        
 
     }
 }
