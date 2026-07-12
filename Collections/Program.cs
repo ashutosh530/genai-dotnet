@@ -2,6 +2,8 @@
 using EmployeeManagement;
 using BrowserHistoryManage;
 using PageBH;
+using EmployeeManagerDic;
+using System.Runtime.CompilerServices;
 
 class Program
 {
@@ -99,14 +101,46 @@ class Program
          browserHistory.VisitPage(new Page (3, "ChatGpt", "https://chatgpt.com"));
 
          browserHistory.CountPage();
+
         Page current =  browserHistory.GetCurrentPage();
         if(current != null)
         {
             Console.WriteLine($"{current.Title}");
         }
          browserHistory.GoBack();
-         
-        
+
+
+         // Using Dictionary
+         EmployeeManagerDict employeeManagerDic = new EmployeeManagerDict();
+
+         employeeManagerDic.AddEmployees(1, "Boby");
+         employeeManagerDic.AddEmployees(2, "Samaira");
+
+        // Display Employee
+        employeeManagerDic.DisplayEmployee();
+
+        //Search
+        Console.WriteLine();
+        Console.WriteLine("Searching Employee...");
+        Console.WriteLine(employeeManagerDic.GetEmployeeById(2));
+
+        // Update
+        Console.WriteLine();
+        employeeManagerDic.UpdateEmployee(2, "Samaira Sharma");
+
+        // Display Again
+        employeeManagerDic.DisplayEmployee();
+
+        // Remove
+        Console.WriteLine();
+        employeeManagerDic.RemoveEmployees(1);
+
+        // Display Again
+        employeeManagerDic.DisplayEmployee();
+
+        // Count
+        Console.WriteLine();
+        employeeManagerDic.CountEmployee();
 
     }
 }
