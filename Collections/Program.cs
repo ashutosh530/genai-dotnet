@@ -4,6 +4,7 @@ using BrowserHistoryManage;
 using PageBH;
 using EmployeeManagerDic;
 using System.Runtime.CompilerServices;
+using UserManager;
 
 class Program
 {
@@ -141,6 +142,30 @@ class Program
         // Count
         Console.WriteLine();
         employeeManagerDic.CountEmployee();
+
+        // Creating an instance of Email Register Project using HashSet
+
+        User user = new User();
+
+        user.RegisterUser("samairasharma@gmail.com");
+        user.RegisterUser("boby@gmail.com");
+        user.RegisterUser("johnthomos@gmail.com");
+        
+        // Display All Users
+        user.DisplayUser();
+
+        // Remove Users
+        user.RemoveUser("johnthomos@gmail.com");
+
+        // Dispaly Again
+        user.DisplayUser();
+
+        // Searching User
+        user.SearchUser("baby@gmail.com");
+
+        
+
+
 
     }
 }
