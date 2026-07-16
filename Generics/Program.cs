@@ -3,6 +3,7 @@ using System;
 using Box;
 using PairsManage;
 using RepositoryManagement;
+using ExceptionsHandling;
  class Program
 {
     public static void Main()
@@ -41,6 +42,9 @@ using RepositoryManagement;
        repository.DisplayAll();
 
        Console.WriteLine($"Total Number of Employee : {repository.Count()}");
+
+       Exceptions exceptions = new Exceptions();
+       exceptions.ErrorsMessage();
 
 
     }
