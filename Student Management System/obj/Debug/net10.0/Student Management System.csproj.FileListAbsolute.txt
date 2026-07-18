@@ -1,0 +1,15 @@
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/bin/Debug/net10.0/Student Management System
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/bin/Debug/net10.0/Student Management System.deps.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/bin/Debug/net10.0/Student Management System.runtimeconfig.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/bin/Debug/net10.0/Student Management System.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/bin/Debug/net10.0/Student Management System.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/Student Management System.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/Student Management System.AssemblyInfoInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/Student Management System.AssemblyInfo.cs
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/Student Management System.csproj.CoreCompileInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/Student Management System.sourcelink.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/Student Management System.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/refint/Student Management System.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/Student Management System.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/Student Management System.genruntimeconfig.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/Student Management System/obj/Debug/net10.0/ref/Student Management System.dll
