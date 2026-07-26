@@ -1,0 +1,15 @@
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/bin/Debug/net10.0/LinqDemo
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/bin/Debug/net10.0/LinqDemo.deps.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/bin/Debug/net10.0/LinqDemo.runtimeconfig.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/bin/Debug/net10.0/LinqDemo.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/bin/Debug/net10.0/LinqDemo.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/LinqDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/LinqDemo.AssemblyInfoInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/LinqDemo.AssemblyInfo.cs
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/LinqDemo.csproj.CoreCompileInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/LinqDemo.sourcelink.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/LinqDemo.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/refint/LinqDemo.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/LinqDemo.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/LinqDemo.genruntimeconfig.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/LinqDemo/obj/Debug/net10.0/ref/LinqDemo.dll
