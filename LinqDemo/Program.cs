@@ -79,29 +79,79 @@ class Program
 
         List<Student> students = new()
         {
-          new Student {Id =1, Name = "Baby Johns", Marks = 80},
-          new Student {Id = 2, Name = "Shree", Marks = 60},
-          new Student { Id = 3, Name = "Amit", Marks = 92 },
-          new Student { Id = 4, Name = "Priya", Marks = 70 },
-          new Student { Id = 5, Name = "Ankit", Marks = 95 }
+            new Student { Id = 1, Name = "Ashutosh", Marks = 80, Department = "Computer" },
+            new Student { Id = 2, Name = "Rahul", Marks = 60, Department = "IT" },
+            new Student { Id = 3, Name = "Amit", Marks = 92, Department = "Computer" },
+            new Student { Id = 4, Name = "Priya", Marks = 70, Department = "IT" },
+            new Student { Id = 5, Name = "Ankit", Marks = 95, Department = "Computer" }
         };
 
-        var finalResult = students.Where( s => s.Marks >= 70).Select( s => s.Name).OrderBy(n => n);
-        foreach(var res in finalResult)
+        var finalResult = students.Where(s => s.Marks >= 70).Select(s => s.Name).OrderBy(n => n);
+        foreach (var res in finalResult)
         {
             Console.WriteLine(res);
         }
 
         // Is there any student whose name starts with "B"?
-        bool startWithB = students.Any( s => s.Name.StartsWith("B"));
+        bool startWithB = students.Any(s => s.Name.StartsWith("B"));
         Console.WriteLine(startWithB);
 
         // Print the names of students who scored 80 or more, sorted in descending alphabetical order.
-        var scored80= students.Where( s => s.Marks >= 80).Select(s => s.Name).OrderByDescending( s => s);
-        foreach(var storeScored80 in scored80)
+        var scored80 = students.Where(s => s.Marks >= 80).Select(s => s.Name).OrderByDescending(s => s);
+        foreach (var storeScored80 in scored80)
         {
             Console.WriteLine(storeScored80);
         }
+
+        // Using Distinct
+        List<string> namesDis = new()
+        {
+            "Ashutosh",
+            "Rahul",
+            "Ashutosh",
+            "Amit",
+            "Rahul",
+            "Priya",
+            "Amit"
+        };
+        var resultDistinct = namesDis.Distinct();
+        foreach (var uniqueNames in result)
+            Console.WriteLine(uniqueNames);
+
+        // Using Contains()
+        bool nameContain = namesDis.Contains("Rohit");
+        Console.WriteLine(nameContain);
+
+        // Using Take()
+
+        var numbersTake = numbers.Take(2);
+        foreach (var numTake in numbersTake)
+            Console.WriteLine(numTake);
+
+        // Using Skip
+        var numbersSkip = numbers.Skip(3);
+        foreach (var numSkip in numbersSkip)
+            Console.WriteLine(numSkip);
+
+        // Using Sum
+        var totalMarks = students.Where(n => n.Marks >= 70).Sum(m => m.Marks);
+        Console.WriteLine(totalMarks);
+
+        // Using Average
+        var averageMark = students.Where(m => m.Marks >= 70).Average(s => s.Marks);
+        Console.WriteLine(averageMark);
+
+        // Using Max or Min
+        var highestMark = students.Max(s => s.Marks);
+        Console.WriteLine(highestMark);
+
+        var lowestMark = students.Min(s => s.Marks);
+        Console.WriteLine(lowestMark);
+
+        var scored80Names = students.Where(s => s.Marks >= 80).Select(n => n.Name).OrderBy(s => s);
+        foreach (var namesAlpha in scored80Names)
+            Console.WriteLine(namesAlpha);
+
 
     }
 }
