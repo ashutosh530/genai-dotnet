@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Security.Cryptography;
 using StudentPro;
+using CourseManagement;
 
 class Program
 {
@@ -152,6 +154,79 @@ class Program
         foreach (var namesAlpha in scored80Names)
             Console.WriteLine(namesAlpha);
 
+        // Start Advance LINQ, using GroupBy or Count
+
+        var groupedDepartment = students.GroupBy(s => s.Department);
+
+        foreach (var department in groupedDepartment)
+        {
+            Console.WriteLine($"Department : {department.Key} -> {department.Count()}");
+            foreach (var student in department)
+                Console.WriteLine(student.Name);
+        }
+        // Using GroupBy + Average 
+
+        var markInDepartment = students.GroupBy(d => d.Department);
+        foreach (var markDepartment in markInDepartment)
+        {
+            Console.WriteLine($"{markDepartment.Key} -> {markDepartment.Average(m => m.Marks)} ");
+
+        }
+
+        // Using GroupBy + Where
+        var departmentAvgGrater70 = students.GroupBy(d => d.Department);
+        foreach (var depAvgGra70 in departmentAvgGrater70)
+        {
+            var avgGra70 = depAvgGra70.Average(m => m.Marks);
+            if (avgGra70 >= 70)
+            {
+                Console.WriteLine($"{depAvgGra70.Key} -> {avgGra70}");
+            }
+        }
+
+        // Using Join 
+        Console.WriteLine("========= Usning Join ===========");
+
+        List<Course> courses = new()
+        {
+            new Course { StudentId =1, CourseName ="C#"},
+            new Course { StudentId = 2, CourseName = "ASP.NET Core" },
+            new Course { StudentId = 3, CourseName = "AI/ML" }
+        };
+
+        var courseResult = students.Join(
+            courses,
+            students => students.Id,
+            courses => courses.StudentId,
+            (students, courses) => new
+            {
+                students.Name,
+                students.Marks,
+                courses.CourseName
+            }
+        );
+
+        foreach (var resultJoin in courseResult)
+        {
+            Console.WriteLine($"{resultJoin.Name} -> {resultJoin.CourseName}");
+        }
+
+        var courseResultFilter = students.Join(
+        courses,
+        student => student.Id,
+        course => course.StudentId,
+        (student, course) => new
+        {
+            student.Name,
+            student.Marks,
+            course.CourseName
+        })
+       .Where(x => x.Marks >= 80);
+
+        foreach (var resultFilter in courseResultFilter)
+        {
+            Console.WriteLine($"{resultFilter.Name} -> {resultFilter.CourseName}");
+        }
 
     }
 }
