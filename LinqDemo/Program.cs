@@ -2,6 +2,7 @@
 using System.Security.Cryptography;
 using StudentPro;
 using CourseManagement;
+using System.Reflection.Metadata.Ecma335;
 
 class Program
 {
@@ -85,7 +86,8 @@ class Program
             new Student { Id = 2, Name = "Rahul", Marks = 60, Department = "IT" },
             new Student { Id = 3, Name = "Amit", Marks = 92, Department = "Computer" },
             new Student { Id = 4, Name = "Priya", Marks = 70, Department = "IT" },
-            new Student { Id = 5, Name = "Ankit", Marks = 95, Department = "Computer" }
+            new Student { Id = 5, Name = "Ankit", Marks = 95, Department = "Computer" },
+            new Student { Id = 6, Name = "Neha", Marks = 85, Department = "AI" }
         };
 
         var finalResult = students.Where(s => s.Marks >= 70).Select(s => s.Name).OrderBy(n => n);
@@ -185,7 +187,7 @@ class Program
         }
 
         // Using Join 
-        Console.WriteLine("========= Usning Join ===========");
+        Console.WriteLine("========= Using Join ===========");
 
         List<Course> courses = new()
         {
@@ -227,6 +229,100 @@ class Program
         {
             Console.WriteLine($"{resultFilter.Name} -> {resultFilter.CourseName}");
         }
+          // using SelectMany()
+        var resultSelectMany = courses.SelectMany(s => s.CourseName).Distinct();
+        Console.WriteLine("----- SelectMany() -------");
+        foreach (var resultMany in resultSelectMany)
+        {
+            Console.WriteLine(resultMany);
+        }
 
+        // using SelectMany() + Distinct()
+        var resultSelectManyDis = courses.SelectMany(s => s.CourseName).Distinct();
+        Console.WriteLine("----- SelectMany() + Distinct () -------");
+        foreach (var resultMany in resultSelectManyDis)
+        {
+            Console.WriteLine(resultMany);
+        }
+
+        // Using ToDictionary
+       // var studentDictionary = students.ToDictionary(s => s.Id, s => s.Name);
+       
+       var studentDictionary = students.ToDictionary(s => s.Id, s => s.Name);
+       foreach( var studentDictionaryMark in studentDictionary)
+       Console.WriteLine(studentDictionaryMark);
+
+        // Using Distionary + Where
+       var studentDictionaryFilter = students.Where(m => m.Marks >= 80).ToDictionary(s => s.Id, s => s.Name);
+       foreach( var studentDictionaryMarkFilter in studentDictionaryFilter)
+       Console.WriteLine(studentDictionaryMarkFilter);
+
+       // LINQ Query Syntax 
+
+       var resultQuery = 
+       from s in students 
+       where  s.Marks >= 70
+       orderby s.Name
+       select s.Name;
+       foreach( var result70 in resultQuery)
+        {
+            Console.WriteLine(result70);
+        }
+
+        // Query Syntax + GroupBy
+        var groupedQuery = 
+        from s in students
+        group s by s.Department;
+
+        foreach( var gorupedDepartment in groupedQuery)
+        {
+            Console.WriteLine(gorupedDepartment.Key);
+            foreach( var studentQuery in gorupedDepartment)
+            {
+                Console.WriteLine(studentQuery.Name);
+            }
+        }
+
+        // Deferred Execution
+
+        // Group students by department and find the highest marks in each department.
+
+        var highestMarks = students.GroupBy( s => s.Department);
+
+        foreach (var resultHighest in highestMarks)
+        {
+            Console.WriteLine($"{resultHighest.Key} -> {resultHighest.Max(s => s.Marks)}");
+        }
+
+        // Find the average marks for each department, but display only departments whose average is 70 or greater, sorted by the average marks from highest to lowest.
+
+       var averageMarks = students
+    .GroupBy(s => s.Department)
+    .OrderByDescending(group => group.Average(s => s.Marks));
+
+        foreach (var eachDepartment in averageMarks)
+        {
+            var average700 = eachDepartment.Average(s => s.Marks);
+
+            if (average700 >= 70)
+            {
+                Console.WriteLine("------");
+                Console.WriteLine($"{eachDepartment.Key} -> {average700}");
+            }
+        }
+
+        var departmentAverage70 = students.GroupBy( s => s.Department)
+        .OrderByDescending( g => g.Average( m => m.Marks));
+
+        Console.WriteLine("---- Highest ----");
+        foreach( var departmentAvgHighest in departmentAverage70)
+        {
+            
+            var avgHighestMarks = departmentAvgHighest.Average( h => h.Marks);
+            if(avgHighestMarks >= 70)
+            {
+                Console.WriteLine($"{departmentAvgHighest.Key} -> {avgHighestMarks}");
+            }
+        }
     }
 }
