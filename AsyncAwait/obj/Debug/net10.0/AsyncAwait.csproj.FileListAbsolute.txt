@@ -1,0 +1,15 @@
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/bin/Debug/net10.0/AsyncAwait
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/bin/Debug/net10.0/AsyncAwait.deps.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/bin/Debug/net10.0/AsyncAwait.runtimeconfig.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/bin/Debug/net10.0/AsyncAwait.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/bin/Debug/net10.0/AsyncAwait.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/AsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/AsyncAwait.AssemblyInfoInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/AsyncAwait.AssemblyInfo.cs
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/AsyncAwait.csproj.CoreCompileInputs.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/AsyncAwait.sourcelink.json
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/AsyncAwait.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/refint/AsyncAwait.dll
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/AsyncAwait.pdb
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/AsyncAwait.genruntimeconfig.cache
+/Users/ashutoshsingh/Pawan Singh/AI ROADMAP/GenAI-DotNet-Roadmap/AsyncAwait/obj/Debug/net10.0/ref/AsyncAwait.dll
